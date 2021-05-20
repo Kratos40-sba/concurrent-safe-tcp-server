@@ -1,0 +1,15 @@
+Exercice : A simple mailbox 
+* Accept TCP connections .
+* Read 1 line fro; the incoming stream (until newline or EOF) .
+  * it's okay to trim traling spaces .
+* If the input is : 
+  * A non-empty space : store the string .
+  * An empty string : retrive it , in FIFO fashion .
+* Start improving it by adding threads and ecperiencing Rust's cocnurrency safety .
+-----------------------------------------------------------------------------------
+We will learn along the way 
+* Onwnership based memory and connection management.
+* Mutable and immutable references.
+* Basic cincurrency safety through Mutexes and smart pointers.
+-----------------------------------------------------------------------------------
+
